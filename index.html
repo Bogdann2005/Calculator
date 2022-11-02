@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./icons/css/all.css">
+</head>
+
+<body>
+    <div id="calk">
+
+        <input type="text" id="hh1" placeholder="0" readonly />
+        <input type="text" id="hh2" readonly />
+
+
+        <button id="anjatich">
+            <i class="fas fa-power-off" id="icon"></i>
+        </button>
+        <div id="tox">
+            <button id="C" onclick="j()">C</button>
+            <button id='ss' onclick="s()">/-/</button>
+            <button id="plusminus" onclick="pm()">+/-</button>
+            <button id="tokos" onclick="operator('%')">%</button>
+            <!-- <button id="bajanum" onclick="operator('/')">/</button> -->
+
+        </div>
+        <div id="tox">
+            <button id="yot" onclick="f(7)" value="7">7</button>
+            <button id="ut" onclick="f(8)">8</button>
+            <button id="iny" onclick="f(9)">9</button>
+            <button id="bazm" onclick="operator('*')">*</button>
+        </div>
+        <div id="tox">
+            <button id="chors" onclick="f(4)">4</button>
+            <button id="hing" onclick="f(5)">5</button>
+            <button id="vec" onclick="f(6)">6</button>
+            <button id="minus" onclick="operator('-')">-</button>
+        </div>
+        <div id="tox">
+            <button id="mek" onclick="f(1)">1</button>
+            <button id="erku" onclick="f(2)">2</button>
+            <button id="ireq" onclick="f(3)">3</button>
+            <button id="plus" onclick="operator('+')">+</button>
+        </div>
+        <div id="tox">
+            <button id="zro" onclick="f(0)">0</button>
+            <!-- <button id="ket" onclick="f()">.</button> -->
+            <button id="havasar" onclick="havasar()">=</button>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
